@@ -20,10 +20,10 @@ Binary release of unpublicized [ChainX](https://github.com/chainx-org/ChainX).
 
     ```bash
     # 启动验证人节点
-    ./chainx --key=账户私钥 --validator-name=节点名称 --name=监控台名称 --validator --bootnodes=/ip4/47.99.192.159/tcp/31125/p2p/QmRVwRufE4QFwt4o9osP6J3vhCMnpFoAxuG9Gr8AKAXVos --chain=local --pruning archive --base-path=数据存放路径
+    ./chainx --key=账户私钥 --validator-name=节点名称 --name=监控台名称 --base-path=数据存放路径 --validator --bootnodes=/ip4/47.99.192.159/tcp/31125/p2p/QmRVwRufE4QFwt4o9osP6J3vhCMnpFoAxuG9Gr8AKAXVos --chain=local --pruning archive
 
     # 启动同步节点
-    ./chainx --name=监控台名称 --bootnodes=/ip4/47.99.192.159/tcp/31125/p2p/QmRVwRufE4QFwt4o9osP6J3vhCMnpFoAxuG9Gr8AKAXVos --chain=local --pruning archive --base-path=数据存放路径
+    ./chainx --name=监控台名称 --base-path=数据存放路径 --bootnodes=/ip4/47.99.192.159/tcp/31125/p2p/QmRVwRufE4QFwt4o9osP6J3vhCMnpFoAxuG9Gr8AKAXVos --chain=local --pruning archive 
     ```
 
     待节点部署完毕，并在监控台等待自己的节点同步到最新，监控台地址为 https://telemetry.polkadot.io/#/ChainX%20V0.9.3 。
