@@ -6,7 +6,7 @@ Binary release of unpublicized [ChainX](https://github.com/chainx-org/ChainX).
 
 1. 访问在线钱包 [wallet.chainx.org](https://wallet.chainx.org)。
 
-2. 点击创建账户，生成节点账户，**账户地址**形如 `5HbT8...S9yg`，导出**私钥**形如 `0x30530...c95aee43`。
+2. 点击创建账户，生成节点账户，**账户地址**形如 `5HbT8...S9yg`，导出**账户私钥**形如 `0x30530...c95aee43`。
 
 3. 首先在资产页领取 1 个 PCX 测试币，以便能够发起交易，进行注册，更新节点等操作。
 
@@ -20,7 +20,7 @@ Binary release of unpublicized [ChainX](https://github.com/chainx-org/ChainX).
 
     ```bash
     # 启动验证人节点
-    ./chainx --key=出块私钥 --validator-name=节点名称 --name=监控台名称 --validator --bootnodes=/ip4/47.99.192.159/tcp/31125/p2p/QmRVwRufE4QFwt4o9osP6J3vhCMnpFoAxuG9Gr8AKAXVos --base-path=数据存放路径
+    ./chainx --key=账户私钥 --validator-name=节点名称 --name=监控台名称 --validator --bootnodes=/ip4/47.99.192.159/tcp/31125/p2p/QmRVwRufE4QFwt4o9osP6J3vhCMnpFoAxuG9Gr8AKAXVos --base-path=数据存放路径
 
     # 启动同步节点
     ./chainx --name=监控台名称 --bootnodes=/ip4/47.99.192.159/tcp/31125/p2p/QmRVwRufE4QFwt4o9osP6J3vhCMnpFoAxuG9Gr8AKAXVos --base-path=数据存放路径
