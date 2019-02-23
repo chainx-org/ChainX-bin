@@ -14,7 +14,7 @@ Binary release of unpublicized [ChainX](https://github.com/chainx-org/ChainX).
 
 5. 在投票选举页的候选节点里，可以看到你的节点处于 **退选** 状态。
 
-6. 在 https://github.com/chainx-org/ChainX-bin/releases/tag/v0.9.3 下载 v0.9.3 测试网 ChainX 二进制 `chainx`。
+6. 使用Ubuntu或MacOS在 https://github.com/chainx-org/ChainX-bin/releases/tag/v0.9.3 下载 v0.9.3 测试网 ChainX 二进制 `chainx`。
 
 7. 启动节点。
 
