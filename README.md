@@ -2,7 +2,7 @@
 
 Binary release of unpublicized [ChainX](https://github.com/chainx-org/ChainX).
 
-## ChainX v0.9.4 公开测试网
+## ChainX v0.9.5 公开测试网
 
 1. 访问在线钱包 [wallet.chainx.org](https://wallet.chainx.org)。
 
@@ -14,7 +14,7 @@ Binary release of unpublicized [ChainX](https://github.com/chainx-org/ChainX).
 
 5. 在投票选举页的候选节点里，可以看到你的节点处于 **退选** 状态。
 
-6. 在 https://github.com/chainx-org/ChainX-bin/releases/tag/v0.9.4 下载 v0.9.4 测试网 ChainX 二进制 `chainx`, 目前仅支持 Ubuntu 16.04+ 或 macOS。
+6. 在 https://github.com/chainx-org/ChainX-bin/releases/tag/v0.9.5 下载 v0.9.5 测试网 ChainX 二进制 `chainx`, 目前仅支持 Ubuntu 16.04+ 或 macOS。
 
 7. 启动节点。
 
@@ -26,7 +26,7 @@ Binary release of unpublicized [ChainX](https://github.com/chainx-org/ChainX).
     ./chainx --name=监控台名称 --base-path=数据存放路径 --chain=local --pruning archive 
     ```
 
-    待节点部署完毕，并在监控台等待自己的节点同步到最新，监控台地址为 https://telemetry.polkadot.io/#/ChainX%20V0.9.4 。
+    待节点部署完毕，并在监控台等待自己的节点同步到最新，监控台地址为 https://telemetry.polkadot.io/#/ChainX%20V0.9.5 。
 
 8. 在投票选举页，点击更新节点，填写:
 
@@ -41,4 +41,5 @@ Binary release of unpublicized [ChainX](https://github.com/chainx-org/ChainX).
 
 ## CHANGELOG
 
+- ~v0.9.4~
 - ~v0.9.3~
