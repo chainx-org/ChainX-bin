@@ -1,5 +1,9 @@
 # ChainX-bin
 
+:warning: [Deprecated] Please move to https://github.com/chainx-org/ChainX/wiki/Testnet .
+
+-----
+
 Binary release of unpublicized [ChainX](https://github.com/chainx-org/ChainX).
 
 ## ChainX v0.9.5 公开测试网
